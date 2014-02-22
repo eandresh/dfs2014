@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jacruzca dart angular</title>
+    <link rel="stylesheet" href="jacruzca_dart_angular.css">
+  </head>
+  <body>
+    <h1>IMC</h1>
+    
+    <p>Índice de masa corporal (IMC)</p>
+    
+    <div id="sample_container_id">
+      <p id="sample_text_id"></p>
+      <div id="form">
+        <div>
+          <label for="masa">Masa (Kg)</label>
+          <input id="masa" name="masa" value=""/>
+        </div>
+        <div>
+          <label for="estatura">Estatura (cm)</label>
+          <input id="estatura" name="estatura" value=""/>
+        </div>
+        <div>
+        <input type="submit" id="calculate"/>
+        </div>
+        <div>
+          <input id="resultado"></input>
+        </div>
+      </div>
+    </div>
+
+    <script type="application/dart" src="jacruzca_dart_angular.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
