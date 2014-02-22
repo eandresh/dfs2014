@@ -12,8 +12,6 @@ void main() {
   resultado = querySelector("#resultado");
   calculateButton = querySelector("#calculate");
   
-  print("Buuuuuuuuu");
-  
   calculateButton.onClick.listen(calculate);
   
 }
