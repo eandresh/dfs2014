@@ -1,0 +1,4 @@
+name: marlonlom_reto_imc_calculator
+description: A sample web application for IMC calculations
+dependencies:
+  browser: any

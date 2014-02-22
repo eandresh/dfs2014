@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marlonlom reto imc calculator</title>
+    <link rel="stylesheet" href="marlonlom_reto_imc_calculator.css">
+    <link rel="stylesheet" href="calc_styles.css">
+  </head>
+  <body>
+    <h1>Marlonlom reto imc calculator</h1>
+    
+    <p>IMC Calculator</p>
+    <div class="calc_formitem">
+        <span class="calc_detail">Calculate IMC using these input fields:</span>
+      </div>
+    <div class="calculator_formbox">
+      <section class="calc_column pull-left">
+        <div class="calc_formitem">
+          <label for="mass_val">Mass (Kg):</label>
+          <input id="mass_val" name="mass_val" placeholder="Input mass (Kg)">
+        </div>
+        <div class="calc_formitem">
+          <label for="height_val">Height (Mts):</label>
+          <input id="height_val" name="height_val" placeholder="Input height (Mts)">
+        </div>
+      </section>
+      <section class="calc_column pull-left">
+        <div class="calc_formitem">
+          <button type="button" id="calculateBtn">Calculate</button>
+        </div>
+      </section>
+      <div class="clearfix"></div>
+    </div>
+    <div class="calc_resultsbox">
+        <span class="calc_result_header">Your IMC is:</span>
+        <input type="text" readonly="readonly" class="calc_result" id="calcResult" name="calcResult" />
+      </div>
+
+    <script type="application/dart" src="marlonlom_reto_imc_calculator.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

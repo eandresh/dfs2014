@@ -1,0 +1,58 @@
+.clearfix{
+  clear: both;
+}
+
+.pull-right{
+  float: right;
+}
+
+.pull-left{
+  float: left;
+}
+
+body{
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.calculator_formbox{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.calculator_formbox .calc_column{
+  width: 40%;
+  margin: 5px;
+}
+
+.calculator_formbox .calc_column .calc_formitem, .calc_resultsbox{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.calculator_formbox .calc_formitem label, 
+.calculator_formbox .calc_formitem input[type="text"]{
+  display:block;
+  margin:2px;
+  font-size: 12px;
+  font-family: sans-serif; 
+}
+
+.calculator_formbox .calc_formitem button#calculateBtn{
+  display: block;
+  height: 100px;
+  width: 120px;
+}
+
+span[class^="calc_result"]{
+  display:block;
+}
+
+span[class="calc_result"]{
+  color:red;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: sans-serif; 
+  
+}
