@@ -3140,9 +3140,8 @@ return}throw "Unable to print message: " + String(a)}}],["","file:///home/jhon/e
 Iq:[function(){$.xT=document.querySelector("#masa")
 $.ko=document.querySelector("#estatura")
 $.tz=document.querySelector("#resultado")
-$.zi=document.querySelector("#calculate")
-P.JS("Buuuuuuuuu")
-var z=$.zi
+var z=document.querySelector("#calculate")
+$.zi=z
 z.toString
 z=H.VM(new W.Cq(z,C.T1.Ph,!1),[null])
 H.VM(new W.xC(0,z.uv,z.Ph,W.VF(X.pU()),z.Sg),[H.Kp(z,0)]).Zz()},"call$0","eE",0,0,1],
