@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Indicemasa</title>
+    <link rel="stylesheet" href="indicemasa.css">
+  </head>
+  <body>
+    
+    <h1>Calculo de masa corporal</h1>
+    <div id="masa">
+      <h3>Digite Su masa</h3>
+      <input type="number" ng-model="masa">
+    </div>
+    
+    <div id="altura">
+      <h3>Digite su altura</h3>
+      <input type="number" ng-model="altura">
+    </div>
+    
+    <div id="Su_indice_de_masa">
+      <p>Su indice de masa es:<br>
+        <h1>{{ masa / (altura * altura) }}</h1></p>
+    </div>
+    
+    <script src="packages/shadow_dom/shadow_dom.min.js"></script>
+    <script type="application/dart" src="indicemasa.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
