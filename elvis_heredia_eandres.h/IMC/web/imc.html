@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IMC</title>
+    <link rel="stylesheet" href="imc.css">
+  </head>
+  <body>
+    <h1>IMC</h1>
+    
+    <p>Indice de Masa Corporal</p>
+    
+    <div id="sample_container_id">
+      <table>
+        <thead>
+          <tr>
+            <th colspand="2" align="center">Calculadora de Indice de masa corporal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <label>Peso (Kg): </label>
+            </td>
+            <td>
+              <input type="text" name="peso" id="peso">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Estatura (cm): </label>
+            </td>
+            <td>
+              <input type="text" name="estatura" id="estatura">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <input type="button" id="calcular" value="Calcular IMC">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Tú IMC es: </label>
+            </td>
+            <td>
+              <input type="text" name="IMC" id="IMC">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      
+      
+      
+      <p id="sample_text_id"></p>
+    </div>
+
+    <script type="application/dart" src="imc.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
